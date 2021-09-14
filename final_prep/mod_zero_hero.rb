@@ -1,9 +1,14 @@
 # Challenge - See if you can follow the instructions and complete the exercise in under 30 minutes!
 
 # Declare two variables - hero_name AND special_ability - set to strings
-
+hero_name = "Garbage Gal"
+special_ability = "turn people into garbage"
+puts "My name is #{hero_name}."
+puts "I have the power to #{special_ability}."
 # Declare two variables - greeting AND catchphrase
 #   greeting should be assigned to a string that uses interpolation to include the hero_name
+greeting = "Have no fear! #{hero_name} is here!"
+puts greeting
 #   catchphrase should be assigned to a string that uses interpolation to include the special_ability
 
 # Declare two variables - power AND energy - set to integers
@@ -33,7 +38,7 @@
 
 # Create a function called assess_situation that takes three arguments - danger_level, save_the_day, bad_excuse
 #   - danger_level should be an integer
-#   - save_the_day should be a string a hero would say once they save the day 
+#   - save_the_day should be a string a hero would say once they save the day
 #   - bad_excuse should be a string a hero would say if they are too afraid of the danger_level
 
 # Your function should include an if/else statement that meets the following criteria
@@ -59,13 +64,13 @@ excuse = 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.'
 
 # Create a new class called SuperHero
 # - Your class should have the following DYNAMIC values
-#   - name 
+#   - name
 #   - super_power
-#   - age 
+#   - age
 # - Your class should have the following STATIC values
 #   - arch_nemesis, assigned to "The Syntax Error"
 #   - power_level = 100
-#   - energy_level = 50 
+#   - energy_level = 50
 
 # - Create the following class methods
 #   - say_name, should print the hero's name to the terminal
@@ -81,4 +86,3 @@ excuse = 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.'
 # What parts felt most comfortable to you?
 
 # What skills do you need to continue to practice before starting Mod 1?
-
